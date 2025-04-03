@@ -41,6 +41,13 @@ urlpatterns = [
     path('mision_aire_femenina/', views.mision_aire_femenina, name='mision_aire_femenina'),
 
     path('elemento_fuego_masculino/', views.elemento_fuego_masculino, name='elemento_fuego_masculino'),
+    path('elemento_tierra_masculino/', views.elemento_tierra_masculino, name='elemento_tierra_masculino'),
+    path('elemento_aire_masculino/', views.elemento_aire_masculino, name='elemento_aire_masculino'),
+     path('elemento_agua_masculino/', views.elemento_agua_masculino, name='elemento_agua_masculino'),
+
 
     path('mision_fuego_masculino/', views.mision_fuego_masculino, name='mision_fuego_masculino'),
+    path('mision_tierra_masculino/', views.mision_tierra_masculino, name='mision_tierra_masculino'),
+    path('mision_aire_masculino/', views.mision_aire_masculino, name='mision_aire_masculino'),
+    path('mision_agua_masculino/', views.mision_agua_masculino, name='mision_agua_masculino'),
 ]

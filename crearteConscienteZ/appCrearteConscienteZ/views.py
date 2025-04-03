@@ -46,6 +46,27 @@ def mision_aire_femenina(request):
 def elemento_fuego_masculino(request):
     return render(request, 'elementosMasculinos/elemento_fuego_masculino.html')
 
+def elemento_tierra_masculino(request):
+    return render(request, 'elementosMasculinos/elemento_tierra_masculino.html')
+
+def elemento_aire_masculino(request):
+    return render(request, 'elementosMasculinos/elemento_aire_masculino.html')
+
+def elemento_agua_masculino(request):
+    return render(request, 'elementosMasculinos/elemento_agua_masculino.html')
+
+
+
+
 
 def mision_fuego_masculino(request):
     return render(request, 'misiones_masculinos/mision_fuego_masculino.html')
+
+def mision_tierra_masculino(request):
+    return render(request, 'misiones_masculinos/mision_tierra_masculino.html')
+
+def mision_aire_masculino(request):
+    return render(request, 'misiones_masculinos/mision_aire_masculino.html')
+
+def mision_agua_masculino(request):
+    return render(request, 'misiones_masculinos/mision_agua_masculino.html')
